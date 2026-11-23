@@ -1,43 +1,47 @@
-# Project Portfolio Entry
+# 3D-Printed Sensor Mounts
 
-> **Project title:** To be confirmed  
-> **NC(V) level / subject:** To be confirmed  
-> **Status:** Repository prepared — original project evidence not yet added
+**Scope:** IR Sensor Mount and Ultrasonic Sensor Bracket  
+**Design tools / material identified:** Tinkercad, STL, PLA  
+**Status:** Design evidence located; digital files are being staged. Physical print fit and final mounting tests are not yet verified.
 
-## Overview
-This repository is prepared to hold one of Thabiso's NC(V) practical or programming projects. The project identity has not yet been matched to the original assessment documents, so no project-specific features or results are claimed here.
+This repository groups the two sensor-mount designs in separate folders, as requested. The original Library files remain unchanged.
 
-## Project details
-| Item | Details |
-|---|---|
-| Project title | To be confirmed |
-| NC(V) level | To be confirmed |
-| Subject | To be confirmed |
-| Assessment task | To be confirmed |
-| Programming language / platform | To be confirmed |
-| Hardware / components | To be confirmed, if applicable |
-| Current status | Awaiting project files and verification |
+## 1. IR Sensor Mount
 
-## Recommended folder layout
-- `src/` — original code and program files
-- `docs/` — task brief, report and notes
-- `images/` — project photos, screenshots and diagrams
-- `tests/` — test cases, results and fixes
+Folder: `ir-sensor-mount/`
 
-## Evidence checklist
-- [ ] Confirm the correct project title and NC(V) level.
-- [ ] Add the original assessment brief.
-- [ ] Add the user's original source files or design files.
-- [ ] Add genuine photographs, screenshots or diagrams where available.
-- [ ] Document how to run, build or reproduce the project.
-- [ ] Record tests, known issues and limitations.
-- [ ] Update this README only with verified details.
+The Library contains an IR Sensor Mount Design Presentation Board showing:
+- A custom blue bracket with sensor opening and mounting holes.
+- Orthographic and isometric views.
+- Stated dimensions: 60 mm base length, 35 mm width, 20 mm height, 12 mm × 8 mm sensor opening and 4 mm mounting holes.
+- PLA material and Tinkercad/STL design workflow.
+- Printing and mounting evidence.
 
-## Important
-This repository is not yet evidence of a completed project. Do not treat task instructions or question papers as proof that a practical project was completed. Remove personal data, passwords, API keys and Wi-Fi credentials before uploading files.
+The presentation image also contains a student number placeholder. It must be checked and redacted before public release. The presentation image is therefore **not uploaded** in this migration step.
+
+## 2. Ultrasonic Sensor Bracket
+
+Folder: `ultrasonic-sensor-bracket/`
+
+The Library contains the original file `ultrasonic_sensor_bracket.stl` (54,484 bytes). The binary STL has been identified, but this GitHub connector step cannot transfer binary file bytes directly through the text-file operation. The original file remains safely in the Library and must be added through GitHub's file upload or Git LFS.
+
+## Folder layout
+
+- `ir-sensor-mount/README.md` — design notes and evidence status.
+- `ultrasonic-sensor-bracket/README.md` — STL file record and upload instructions.
+
+## Verification still required
+
+- [ ] Upload the original IR mount STL if separately available.
+- [ ] Upload the ultrasonic bracket STL.
+- [ ] Add a privacy-reviewed copy of the presentation board.
+- [ ] Record print settings and actual dimensions from the printed parts.
+- [ ] Add photographs showing fit on the robot and sensor alignment.
+
+## Privacy
+
+Do not publish student ID numbers, student cards, private student records or identifiable personal information in project evidence. The original Library files are preserved unchanged.
 
 ## Author
-Thabiso Ndlovu
 
-## Main portfolio
-See the [all-level portfolio index](https://github.com/Thabiso848/isat-subtask-1-3/blob/main/ALL_LEVELS_PORTFOLIO_INDEX.md).
+Thabiso Ndlovu
